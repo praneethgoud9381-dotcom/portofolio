@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: red;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 1px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+  }
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+
+
+}
+
+.hello {
+    color: #f3c158;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home h1 {
+    font-size: 70px;
+}
+
+.home h1 span {
+    color: #ffbd32;
+}
+
+.job {
+    font-size: 35px;
+}
+
+button {
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #fbfbf2;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+
+.about {
+    padding: 100px;
+    line-height: 50px;
+}
+
+.about h1 {
+    font-size: 60px;
+}
+
+.about > p {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+.hak{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details {
+    margin-top: 40px;
+}
+
+.details p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.details b {
+    color: white;
+}
+.re{
+    display: grid;
+}
+
+
+
+.resume {
+    padding: 50px;
+}
+
+.resume > h1 {
+    font-size: 60px;
+}
+
+.resume-box {
+    background-color: #1c1c1c;
+    padding: 40px;
+    margin-top: 20px;
+    border: 10px;
+    border-color: aliceblue;
+}
+
+.resume-box h2 {
+    color: #ffbd32;
+    font-size: 35px;
+}
+
+.resume-box h1 {
+    font-size: 35px;
+}
+
+.resume-box h3 {
+    color: gray;
+}
+
+.resume-box p {
+    color: gray;
+    font-size: 18px;
+    line-height: 1.7;
+}
+@media(max-width:760px){
+    nav{
+        background-color: red;
+
+
+    }
+    .nav-links{
+        display: none;
+    }
+
+
+}
+@media(min-width:760px){
+    .bar{
+        display: none;
+    }
+}
+@media(min_width:780px){
+    .home{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+     
+
